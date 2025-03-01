@@ -5,4 +5,24 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   devtools: { enabled: true },
+  experimental: {
+    scanPageMeta: "after-resolve",
+    sharedPrerenderData: false,
+    compileTemplate: true,
+    resetAsyncDataToUndefined: true,
+    templateUtils: true,
+    relativeWatchPaths: true,
+    normalizeComponentNames: false,
+    spaLoadingTemplateLocation: "within",
+    defaults: {
+      useAsyncData: {
+        deep: true,
+      },
+    },
+  },
+   unhead: {
+    renderSSRHeadOptions: {
+      omitLineBreaks: false,
+    },
+  },
 });
