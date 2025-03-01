@@ -30,12 +30,5 @@ export default defineNuxtConfig({
    },
  },
 
-  modules: [
-   "@nuxtjs/tailwindcss",
-   "@nuxtjs/google-fonts",
-   "@nuxt/icon",
-   "@pinia/nuxt",
-   "@nuxt/ui",
-   "@nuxt/image",
-  ],
+  modules: ["@nuxtjs/google-fonts", "@pinia/nuxt", "@nuxt/ui", "@nuxt/image"],
 });
