@@ -5,7 +5,14 @@
       <h2 class="text-xl font-bold text-center">Guess the asana name in sanskrit</h2>
     </template>
     <div class="flex flex-col items-center justify-center bg-gray-100 rounded-xl p-4">
-      <NuxtImg :src="optionToGuess?.image" alt="asana" width="600" height="400" />
+      <NuxtImg
+        :src="optionToGuess?.image"
+        alt="asana"
+        width="600"
+        loading="lazy"
+        height="400"
+        format="webp"
+      />
     </div>
     <template #footer>
       <div class="flex flex-col gap-4">
