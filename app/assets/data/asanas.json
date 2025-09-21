@@ -1,17 +1,5 @@
 [
   {
-    "id": "suryanamaskar-series-b",
-    "name": "Suryanamaskar Series B",
-    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/suryanamaskar-series-b.png",
-    "downloaded_img_path": "assets/images/suryanamaskar-series-b.png",
-    "similar_asanas": [
-      "sun-salutation-series-a",
-      "sirsasana-b",
-      "paschimattanasana-b",
-      "purvottanasana"
-    ]
-  },
-  {
     "id": "pada-angusthasana-b",
     "name": "Pada Angusthasana B",
     "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Angusthasana-b.png",
@@ -105,18 +93,6 @@
       "pada-angusthasana-b",
       "pada-angusthasana",
       "supta-padangusthasana-b"
-    ]
-  },
-  {
-    "id": "sun-salutation-series-a",
-    "name": "Sun Salutation Series A",
-    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/sun-salutation-series-a.png",
-    "downloaded_img_path": "assets/images/sun-salutation-series-a.png",
-    "similar_asanas": [
-      "suryanamaskar-series-b",
-      "sirsasana-a",
-      "janu-sirsasana-a",
-      "prasarita-padottanasana-a"
     ]
   },
   {
