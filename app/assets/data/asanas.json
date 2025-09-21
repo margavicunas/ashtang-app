@@ -1,22 +1,854 @@
 [
-    {
-        "id": "pada-angusthasana-a",
-        "name": "Pada Angusthasana A",
-        "image": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Angusthasana-a.png"
-    },
-    {
-        "id": "pada-angusthasana-b",
-        "name": "Pada Angusthasana B",
-        "image": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Hastasana-b.png"
-    },
-    {
-        "id": "utthita-trikonasana-a",
-        "name": "Uthitha Trikonasana A",
-        "image": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Trikonasana-a.png"
-    },
-    {
-        "id": "utthita-trikonasana-b",
-        "name": "Uthitha Trikonasana B",
-        "image": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Trikonasana-b.png"
-    }
+  {
+    "id": "pada-angusthasana",
+    "name": "Pada-Angusthasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Angusthasana.png",
+    "downloaded_img_path": "app/assets/images/pada-angusthasana.png",
+    "similar_poses": [
+      "pada-angusthasana-b",
+      "pada-hastasana-b",
+      "pada-hastasana-a",
+      "ubhaya-padangusthasana"
+    ]
+  },
+  {
+    "id": "suryanamaskar-series-b",
+    "name": "suryanamaskar-series-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/suryanamaskar-series-b.png",
+    "downloaded_img_path": "app/assets/images/suryanamaskar-series-b.png",
+    "similar_poses": [
+      "sun-salutation-series-a",
+      "sirsasana-b",
+      "paschimattanasana-b",
+      "purvottanasana"
+    ]
+  },
+  {
+    "id": "sun-salutation-series-a",
+    "name": "sun-salutation-series-a",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/sun-salutation-series-a.png",
+    "downloaded_img_path": "app/assets/images/sun-salutation-series-a.png",
+    "similar_poses": [
+      "suryanamaskar-series-b",
+      "sirsasana-a",
+      "janu-sirsasana-a",
+      "prasarita-padottanasana-a"
+    ]
+  },
+  {
+    "id": "pada-hastasana-a",
+    "name": "Pada-Hastasana-a",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Hastasana-a.png",
+    "downloaded_img_path": "app/assets/images/pada-hastasana-a.png",
+    "similar_poses": [
+      "pada-hastasana-b",
+      "pada-angusthasana-b",
+      "pada-angusthasana",
+      "supta-padangusthasana-a"
+    ]
+  },
+  {
+    "id": "pada-hastasana-b",
+    "name": "Pada-Hastasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Hastasana-b.png",
+    "downloaded_img_path": "app/assets/images/pada-hastasana-b.png",
+    "similar_poses": [
+      "pada-hastasana-a",
+      "pada-angusthasana-b",
+      "pada-angusthasana",
+      "supta-padangusthasana-b"
+    ]
+  },
+  {
+    "id": "pada-angusthasana-b",
+    "name": "Pada-Angusthasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pada-Angusthasana-b.png",
+    "downloaded_img_path": "app/assets/images/pada-angusthasana-b.png",
+    "similar_poses": [
+      "pada-angusthasana",
+      "pada-hastasana-b",
+      "pada-hastasana-a",
+      "supta-padangusthasana-b"
+    ]
+  },
+  {
+    "id": "uthitha-parsvakonasana-b",
+    "name": "Uthitha-Parsvakonasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Parsvakonasana-b.png",
+    "downloaded_img_path": "app/assets/images/uthitha-parsvakonasana-b.png",
+    "similar_poses": [
+      "uthitha-parsvakonasana-a",
+      "uthitha-trikonasana-b",
+      "uthitha-trikonasana-a",
+      "uthitha-hasta-padaangustasana-b"
+    ]
+  },
+  {
+    "id": "uthitha-trikonasana-b",
+    "name": "Uthitha-Trikonasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Trikonasana-b.png",
+    "downloaded_img_path": "app/assets/images/uthitha-trikonasana-b.png",
+    "similar_poses": [
+      "uthitha-trikonasana-a",
+      "uthitha-parsvakonasana-b",
+      "uthitha-parsvakonasana-a",
+      "uthitha-hasta-padaangustasana-b"
+    ]
+  },
+  {
+    "id": "uthitha-trikonasana-a",
+    "name": "Uthitha-Trikonasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Trikonasana-A.png",
+    "downloaded_img_path": "app/assets/images/uthitha-trikonasana-a.png",
+    "similar_poses": [
+      "uthitha-trikonasana-b",
+      "uthitha-parsvakonasana-a",
+      "uthitha-parsvakonasana-b",
+      "uthitha-hasta-padaangustasana-a"
+    ]
+  },
+  {
+    "id": "prasarita-padottanasana-a",
+    "name": "Prasarita-Padottanasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Prasarita-Padottanasana-A.png",
+    "downloaded_img_path": "app/assets/images/prasarita-padottanasana-a.png",
+    "similar_poses": [
+      "prasarita-padottanasana-d",
+      "prasarita-padottanasana-c",
+      "prasarita-padottanasana-b",
+      "paschimattanasana-a"
+    ]
+  },
+  {
+    "id": "prasarita-padottanasana-c",
+    "name": "Prasarita-Padottanasana-c",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Prasarita-Padottanasana-c.png",
+    "downloaded_img_path": "app/assets/images/prasarita-padottanasana-c.png",
+    "similar_poses": [
+      "prasarita-padottanasana-d",
+      "prasarita-padottanasana-b",
+      "prasarita-padottanasana-a",
+      "paschimattanasana-c"
+    ]
+  },
+  {
+    "id": "prasarita-padottanasana-d",
+    "name": "Prasarita-Padottanasana-d",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Prasarita-Padottanasana-d.png",
+    "downloaded_img_path": "app/assets/images/prasarita-padottanasana-d.png",
+    "similar_poses": [
+      "prasarita-padottanasana-c",
+      "prasarita-padottanasana-b",
+      "prasarita-padottanasana-a",
+      "paschimattanasana-d"
+    ]
+  },
+  {
+    "id": "parsvottanasana",
+    "name": "Parsvottanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Parsvottanasana.png",
+    "downloaded_img_path": "app/assets/images/parsvottanasana.png",
+    "similar_poses": [
+      "purvottanasana",
+      "paschimattanasana-d",
+      "paschimattanasana-d",
+      "paschimattanasana-c"
+    ]
+  },
+  {
+    "id": "uthitha-hasta-padaangustasana-b",
+    "name": "Uthitha-Hasta-Padaangustasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Hasta-Padaangustasana-b.png",
+    "downloaded_img_path": "app/assets/images/uthitha-hasta-padaangustasana-b.png",
+    "similar_poses": [
+      "uthitha-hasta-padaangustasana-c",
+      "uthitha-hasta-padaangustasana-a",
+      "uthitha-parsvakonasana-b",
+      "uthitha-parsvakonasana-a"
+    ]
+  },
+  {
+    "id": "uthitha-parsvakonasana-a",
+    "name": "Uthitha-Parsvakonasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Parsvakonasana-A.png",
+    "downloaded_img_path": "app/assets/images/uthitha-parsvakonasana-a.png",
+    "similar_poses": [
+      "uthitha-parsvakonasana-b",
+      "uthitha-trikonasana-a",
+      "uthitha-trikonasana-b",
+      "uthitha-hasta-padaangustasana-a"
+    ]
+  },
+  {
+    "id": "uthitha-hasta-padaangustasana-c",
+    "name": "Uthitha-Hasta-Padaangustasana-c",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Hasta-Padaangustasana-c.png",
+    "downloaded_img_path": "app/assets/images/uthitha-hasta-padaangustasana-c.png",
+    "similar_poses": [
+      "uthitha-hasta-padaangustasana-b",
+      "uthitha-hasta-padaangustasana-a",
+      "uthitha-parsvakonasana-b",
+      "uthitha-parsvakonasana-a"
+    ]
+  },
+  {
+    "id": "ardha-baddha-padmottanasana",
+    "name": "Ardha-Baddha-Padmottanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Ardha-Baddha-Padmottanasana.png",
+    "downloaded_img_path": "app/assets/images/ardha-baddha-padmottanasana.png",
+    "similar_poses": [
+      "ardha-baddha-padma-paschimattanasana",
+      "urdhva-mukha-paschimattanasana",
+      "prasarita-padottanasana-d",
+      "prasarita-padottanasana-c"
+    ]
+  },
+  {
+    "id": "utkatasana",
+    "name": "Utkatasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Utkatasana.png",
+    "downloaded_img_path": "app/assets/images/utkatasana.png",
+    "similar_poses": [
+      "kukkutasana",
+      "matsyasana",
+      "supta-konasana",
+      "savasana"
+    ]
+  },
+  {
+    "id": "virbhadrasana-b",
+    "name": "Virbhadrasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Virbhadrasana-b.png",
+    "downloaded_img_path": "app/assets/images/virbhadrasana-b.png",
+    "similar_poses": [
+      "virbhadrasana-a",
+      "bhujapidasana-b",
+      "sirsasana-b",
+      "bhujapidasana-a"
+    ]
+  },
+  {
+    "id": "uthitha-hasta-padaangustasana-a",
+    "name": "Uthitha-Hasta-Padaangustasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uthitha-Hasta-Padaangustasana-A.png",
+    "downloaded_img_path": "app/assets/images/uthitha-hasta-padaangustasana-a.png",
+    "similar_poses": [
+      "uthitha-hasta-padaangustasana-c",
+      "uthitha-hasta-padaangustasana-b",
+      "uthitha-parsvakonasana-a",
+      "uthitha-parsvakonasana-b"
+    ]
+  },
+  {
+    "id": "prasarita-padottanasana-b",
+    "name": "Prasarita-Padottanasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Prasarita-Padottanasana-b.png",
+    "downloaded_img_path": "app/assets/images/prasarita-padottanasana-b.png",
+    "similar_poses": [
+      "prasarita-padottanasana-d",
+      "prasarita-padottanasana-c",
+      "prasarita-padottanasana-a",
+      "paschimattanasana-b"
+    ]
+  },
+  {
+    "id": "paschimattanasana-a",
+    "name": "Paschimattanasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Paschimattanasana-A.png",
+    "downloaded_img_path": "app/assets/images/paschimattanasana-a.png",
+    "similar_poses": [
+      "paschimattanasana-d",
+      "paschimattanasana-d",
+      "paschimattanasana-c",
+      "paschimattanasana-b"
+    ]
+  },
+  {
+    "id": "virbhadrasana-a",
+    "name": "Virbhadrasana-a",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Virbhadrasana-a.png",
+    "downloaded_img_path": "app/assets/images/virbhadrasana-a.png",
+    "similar_poses": [
+      "virbhadrasana-b",
+      "bhujapidasana-a",
+      "sirsasana-a",
+      "bhujapidasana-b"
+    ]
+  },
+  {
+    "id": "paschimattanasana-b",
+    "name": "Paschimattanasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Paschimattanasana-b.png",
+    "downloaded_img_path": "app/assets/images/paschimattanasana-b.png",
+    "similar_poses": [
+      "paschimattanasana-d",
+      "paschimattanasana-d",
+      "paschimattanasana-c",
+      "paschimattanasana-a"
+    ]
+  },
+  {
+    "id": "paschimattanasana-c",
+    "name": "Paschimattanasana-c",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Paschimattanasana-c.png",
+    "downloaded_img_path": "app/assets/images/paschimattanasana-c.png",
+    "similar_poses": [
+      "paschimattanasana-d",
+      "paschimattanasana-d",
+      "paschimattanasana-b",
+      "paschimattanasana-a"
+    ]
+  },
+  {
+    "id": "ardha-baddha-padma-paschimattanasana",
+    "name": "Ardha-Baddha-Padma-paschimattanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Ardha-Baddha-Padma-paschimattanasana.png",
+    "downloaded_img_path": "app/assets/images/ardha-baddha-padma-paschimattanasana.png",
+    "similar_poses": [
+      "ardha-baddha-padmottanasana",
+      "urdhva-mukha-paschimattanasana",
+      "triang-mukha-ek-pada-paschimattanasana",
+      "paschimattanasana-d"
+    ]
+  },
+  {
+    "id": "dandasana",
+    "name": "dandasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/08/dandasana.png",
+    "downloaded_img_path": "app/assets/images/dandasana.png",
+    "similar_poses": [
+      "pindasana",
+      "supta-dandasana",
+      "karnapidasana",
+      "savasana"
+    ]
+  },
+  {
+    "id": "janu-sirsasana-a",
+    "name": "Janu-Sirsasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Janu-Sirsasana-A.png",
+    "downloaded_img_path": "app/assets/images/janu-sirsasana-a.png",
+    "similar_poses": [
+      "janu-sirsasana-c",
+      "janu-sirsasana-b",
+      "sirsasana-a",
+      "sirsasana-b"
+    ]
+  },
+  {
+    "id": "janu-sirsasana-b",
+    "name": "Janu-Sirsasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Janu-Sirsasana-b.png",
+    "downloaded_img_path": "app/assets/images/janu-sirsasana-b.png",
+    "similar_poses": [
+      "janu-sirsasana-c",
+      "janu-sirsasana-a",
+      "sirsasana-b",
+      "sirsasana-a"
+    ]
+  },
+  {
+    "id": "paschimattanasana-d",
+    "name": "Paschimattanasana-d",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Paschimattanasana-d.png",
+    "downloaded_img_path": "app/assets/images/paschimattanasana-d.png",
+    "similar_poses": [
+      "paschimattanasana-c",
+      "paschimattanasana-b",
+      "paschimattanasana-a",
+      "parsvottanasana"
+    ]
+  },
+  {
+    "id": "purvottanasana",
+    "name": "purvottanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/08/purvottanasana.png",
+    "downloaded_img_path": "app/assets/images/purvottanasana.png",
+    "similar_poses": [
+      "parsvottanasana",
+      "uttana-padasana",
+      "utkatasana",
+      "supta-konasana"
+    ]
+  },
+  {
+    "id": "marichyasana-a",
+    "name": "Marichyasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Marichyasana-A.png",
+    "downloaded_img_path": "app/assets/images/marichyasana-a.png",
+    "similar_poses": [
+      "marichyasana-d",
+      "marichyasana-c",
+      "marichyasana-b",
+      "matsyasana"
+    ]
+  },
+  {
+    "id": "triang-mukha-ek-pada-paschimattanasana",
+    "name": "Triang-Mukha-ek-Pada-Paschimattanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Triang-Mukha-ek-Pada-Paschimattanasana.png",
+    "downloaded_img_path": "app/assets/images/triang-mukha-ek-pada-paschimattanasana.png",
+    "similar_poses": [
+      "urdhva-mukha-paschimattanasana",
+      "ardha-baddha-padma-paschimattanasana",
+      "paschimattanasana-d",
+      "paschimattanasana-d"
+    ]
+  },
+  {
+    "id": "marichyasana-c",
+    "name": "Marichyasana-c",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Marichyasana-c.png",
+    "downloaded_img_path": "app/assets/images/marichyasana-c.png",
+    "similar_poses": [
+      "marichyasana-d",
+      "marichyasana-b",
+      "marichyasana-a",
+      "matsyasana"
+    ]
+  },
+  {
+    "id": "marichyasana-d",
+    "name": "Marichyasana-d",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Marichyasana-d.png",
+    "downloaded_img_path": "app/assets/images/marichyasana-d.png",
+    "similar_poses": [
+      "marichyasana-c",
+      "marichyasana-b",
+      "marichyasana-a",
+      "matsyasana"
+    ]
+  },
+  {
+    "id": "janu-sirsasana-c",
+    "name": "Janu-Sirsasana-c",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Janu-Sirsasana-c.png",
+    "downloaded_img_path": "app/assets/images/janu-sirsasana-c.png",
+    "similar_poses": [
+      "janu-sirsasana-b",
+      "janu-sirsasana-a",
+      "sirsasana-b",
+      "sirsasana-a"
+    ]
+  },
+  {
+    "id": "bhujapidasana-b",
+    "name": "Bhujapidasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Bhujapidasana-b.png",
+    "downloaded_img_path": "app/assets/images/bhujapidasana-b.png",
+    "similar_poses": [
+      "bhujapidasana-a",
+      "virbhadrasana-b",
+      "garbha-pindasana",
+      "virbhadrasana-a"
+    ]
+  },
+  {
+    "id": "bhujapidasana-a",
+    "name": "Bhujapidasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Bhujapidasana-A.png",
+    "downloaded_img_path": "app/assets/images/bhujapidasana-a.png",
+    "similar_poses": [
+      "bhujapidasana-b",
+      "virbhadrasana-a",
+      "garbha-pindasana",
+      "virbhadrasana-b"
+    ]
+  },
+  {
+    "id": "marichyasana-b",
+    "name": "Marichyasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Marichyasana-b.png",
+    "downloaded_img_path": "app/assets/images/marichyasana-b.png",
+    "similar_poses": [
+      "marichyasana-d",
+      "marichyasana-c",
+      "marichyasana-a",
+      "matsyasana"
+    ]
+  },
+  {
+    "id": "navasana",
+    "name": "Navasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Navasana.png",
+    "downloaded_img_path": "app/assets/images/navasana.png",
+    "similar_poses": [
+      "savasana",
+      "halasana",
+      "pindasana",
+      "padmasana"
+    ]
+  },
+  {
+    "id": "kukkutasana",
+    "name": "Kukkutasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Kukkutasana.png",
+    "downloaded_img_path": "app/assets/images/kukkutasana.png",
+    "similar_poses": [
+      "kurmasana",
+      "utkatasana",
+      "matsyasana",
+      "purvottanasana"
+    ]
+  },
+  {
+    "id": "baddha-konasana-a",
+    "name": "Baddha-Konasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Baddha-Konasana-A.png",
+    "downloaded_img_path": "app/assets/images/baddha-konasana-a.png",
+    "similar_poses": [
+      "baddha-konasana-b",
+      "upavistha-konasana-a",
+      "upavistha-konasana-b",
+      "uthitha-trikonasana-a"
+    ]
+  },
+  {
+    "id": "kurmasana",
+    "name": "Kurmasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Kurmasana.png",
+    "downloaded_img_path": "app/assets/images/kurmasana.png",
+    "similar_poses": [
+      "supta-kurmasana",
+      "kukkutasana",
+      "padmasana",
+      "urdhva-padmasana"
+    ]
+  },
+  {
+    "id": "upavistha-konasana-a",
+    "name": "Upavistha-Konasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Upavistha-Konasana-A.png",
+    "downloaded_img_path": "app/assets/images/upavistha-konasana-a.png",
+    "similar_poses": [
+      "upavistha-konasana-b",
+      "uthitha-trikonasana-a",
+      "supta-konasana",
+      "baddha-konasana-a"
+    ]
+  },
+  {
+    "id": "upavistha-konasana-b",
+    "name": "Upavistha-Konasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Upavistha-Konasana-b.png",
+    "downloaded_img_path": "app/assets/images/upavistha-konasana-b.png",
+    "similar_poses": [
+      "upavistha-konasana-a",
+      "uthitha-trikonasana-b",
+      "supta-konasana",
+      "baddha-konasana-b"
+    ]
+  },
+  {
+    "id": "supta-kurmasana",
+    "name": "Supta-Kurmasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Supta-Kurmasana.png",
+    "downloaded_img_path": "app/assets/images/supta-kurmasana.png",
+    "similar_poses": [
+      "supta-konasana",
+      "supta-dandasana",
+      "supta-padangusthasana-b",
+      "supta-padangusthasana-a"
+    ]
+  },
+  {
+    "id": "garbha-pindasana",
+    "name": "Garbha-Pindasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Garbha-Pindasana.png",
+    "downloaded_img_path": "app/assets/images/garbha-pindasana.png",
+    "similar_poses": [
+      "karnapidasana",
+      "pindasana",
+      "bhujapidasana-b",
+      "bhujapidasana-a"
+    ]
+  },
+  {
+    "id": "supta-padangusthasana-b",
+    "name": "Supta-Padangusthasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Supta-Padangusthasana-b.png",
+    "downloaded_img_path": "app/assets/images/supta-padangusthasana-b.png",
+    "similar_poses": [
+      "supta-padangusthasana-a",
+      "supta-dandasana",
+      "supta-konasana",
+      "supta-kurmasana"
+    ]
+  },
+  {
+    "id": "baddha-konasana-b",
+    "name": "Baddha-Konasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Baddha-Konasana-b.png",
+    "downloaded_img_path": "app/assets/images/baddha-konasana-b.png",
+    "similar_poses": [
+      "baddha-konasana-a",
+      "upavistha-konasana-b",
+      "upavistha-konasana-a",
+      "uthitha-trikonasana-b"
+    ]
+  },
+  {
+    "id": "urdhva-mukha-paschimattanasana",
+    "name": "Urdhva-Mukha-Paschimattanasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Urdhva-Mukha-Paschimattanasana.png",
+    "downloaded_img_path": "app/assets/images/urdhva-mukha-paschimattanasana.png",
+    "similar_poses": [
+      "urdhva-padmasana",
+      "urdhva-dhanurasana",
+      "triang-mukha-ek-pada-paschimattanasana",
+      "ardha-baddha-padma-paschimattanasana"
+    ]
+  },
+  {
+    "id": "supta-konasana",
+    "name": "Supta-Konasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Supta-Konasana.png",
+    "downloaded_img_path": "app/assets/images/supta-konasana.png",
+    "similar_poses": [
+      "supta-kurmasana",
+      "supta-dandasana",
+      "supta-padangusthasana-b",
+      "supta-padangusthasana-a"
+    ]
+  },
+  {
+    "id": "urdhva-dhanurasana",
+    "name": "Urdhva-Dhanurasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Urdhva-Dhanurasana.png",
+    "downloaded_img_path": "app/assets/images/urdhva-dhanurasana.png",
+    "similar_poses": [
+      "urdhva-padmasana",
+      "urdhva-mukha-paschimattanasana",
+      "supta-dandasana",
+      "ubhaya-padangusthasana"
+    ]
+  },
+  {
+    "id": "paschimattanasana-d",
+    "name": "Paschimattanasana-d",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Paschimattanasana-d.png",
+    "downloaded_img_path": "app/assets/images/paschimattanasana-d.png",
+    "similar_poses": [
+      "paschimattanasana-c",
+      "paschimattanasana-b",
+      "paschimattanasana-a",
+      "parsvottanasana"
+    ]
+  },
+  {
+    "id": "supta-dandasana",
+    "name": "supta-dandasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/supta-dandasana.png",
+    "downloaded_img_path": "app/assets/images/supta-dandasana.png",
+    "similar_poses": [
+      "supta-konasana",
+      "supta-padangusthasana-b",
+      "supta-padangusthasana-a",
+      "supta-kurmasana"
+    ]
+  },
+  {
+    "id": "salamba-sarvangasana",
+    "name": "Salamba-Sarvangasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Salamba-Sarvangasana.png",
+    "downloaded_img_path": "app/assets/images/salamba-sarvangasana.png",
+    "similar_poses": [
+      "pada-angusthasana",
+      "ubhaya-padangusthasana",
+      "supta-dandasana",
+      "savasana"
+    ]
+  },
+  {
+    "id": "halasana",
+    "name": "halasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/halasana.png",
+    "downloaded_img_path": "app/assets/images/halasana.png",
+    "similar_poses": [
+      "savasana",
+      "navasana",
+      "padmasana",
+      "dandasana"
+    ]
+  },
+  {
+    "id": "karnapidasana",
+    "name": "Karnapidasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Karnapidasana.png",
+    "downloaded_img_path": "app/assets/images/karnapidasana.png",
+    "similar_poses": [
+      "garbha-pindasana",
+      "pindasana",
+      "dandasana",
+      "uttana-padasana"
+    ]
+  },
+  {
+    "id": "urdhva-padmasana",
+    "name": "Urdhva-Padmasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Urdhva-Padmasana.png",
+    "downloaded_img_path": "app/assets/images/urdhva-padmasana.png",
+    "similar_poses": [
+      "urdhva-dhanurasana",
+      "urdhva-mukha-paschimattanasana",
+      "padmasana",
+      "uttana-padasana"
+    ]
+  },
+  {
+    "id": "supta-padangusthasana-a",
+    "name": "Supta-Padangusthasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Supta-Padangusthasana-A.png",
+    "downloaded_img_path": "app/assets/images/supta-padangusthasana-a.png",
+    "similar_poses": [
+      "supta-padangusthasana-b",
+      "supta-dandasana",
+      "supta-konasana",
+      "supta-kurmasana"
+    ]
+  },
+  {
+    "id": "ubhaya-padangusthasana",
+    "name": "Ubhaya-Padangusthasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Ubhaya-Padangusthasana.png",
+    "downloaded_img_path": "app/assets/images/ubhaya-padangusthasana.png",
+    "similar_poses": [
+      "supta-padangusthasana-b",
+      "supta-padangusthasana-a",
+      "pada-angusthasana",
+      "pada-angusthasana-b"
+    ]
+  },
+  {
+    "id": "matsyasana",
+    "name": "Matsyasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Matsyasana.png",
+    "downloaded_img_path": "app/assets/images/matsyasana.png",
+    "similar_poses": [
+      "utkatasana",
+      "savasana",
+      "navasana",
+      "marichyasana-d"
+    ]
+  },
+  {
+    "id": "setu-bandhasana",
+    "name": "Setu-Bandhasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Setu-Bandhasana.png",
+    "downloaded_img_path": "app/assets/images/setu-bandhasana.png",
+    "similar_poses": [
+      "supta-dandasana",
+      "dandasana",
+      "supta-konasana",
+      "savasana"
+    ]
+  },
+  {
+    "id": "sirsasana-b",
+    "name": "Sirsasana-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Sirsasana-b.png",
+    "downloaded_img_path": "app/assets/images/sirsasana-b.png",
+    "similar_poses": [
+      "sirsasana-a",
+      "janu-sirsasana-b",
+      "janu-sirsasana-c",
+      "janu-sirsasana-a"
+    ]
+  },
+  {
+    "id": "yoga-mudra-a",
+    "name": "Yoga-Mudra-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Yoga-Mudra-A.png",
+    "downloaded_img_path": "app/assets/images/yoga-mudra-a.png",
+    "similar_poses": [
+      "yoga-mudra-b",
+      "virbhadrasana-a",
+      "janu-sirsasana-a",
+      "garbha-pindasana"
+    ]
+  },
+  {
+    "id": "yoga-mudra-b",
+    "name": "Yoga-Mudra-b",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Yoga-Mudra-b.png",
+    "downloaded_img_path": "app/assets/images/yoga-mudra-b.png",
+    "similar_poses": [
+      "yoga-mudra-a",
+      "virbhadrasana-b",
+      "janu-sirsasana-b",
+      "pada-angusthasana-b"
+    ]
+  },
+  {
+    "id": "sirsasana-a",
+    "name": "Sirsasana-A",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Sirsasana-A.png",
+    "downloaded_img_path": "app/assets/images/sirsasana-a.png",
+    "similar_poses": [
+      "sirsasana-b",
+      "janu-sirsasana-a",
+      "janu-sirsasana-c",
+      "janu-sirsasana-b"
+    ]
+  },
+  {
+    "id": "utpluthih",
+    "name": "Utpluthih",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Utpluthih.png",
+    "downloaded_img_path": "app/assets/images/utpluthih.png",
+    "similar_poses": [
+      "supta-padangusthasana-b",
+      "supta-padangusthasana-a",
+      "uthitha-trikonasana-b",
+      "uthitha-trikonasana-a"
+    ]
+  },
+  {
+    "id": "pindasana",
+    "name": "Pindasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Pindasana.png",
+    "downloaded_img_path": "app/assets/images/pindasana.png",
+    "similar_poses": [
+      "padmasana",
+      "dandasana",
+      "karnapidasana",
+      "garbha-pindasana"
+    ]
+  },
+  {
+    "id": "uttana-padasana",
+    "name": "Uttana-Padasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Uttana-Padasana.png",
+    "downloaded_img_path": "app/assets/images/uttana-padasana.png",
+    "similar_poses": [
+      "karnapidasana",
+      "urdhva-padmasana",
+      "purvottanasana",
+      "supta-dandasana"
+    ]
+  },
+  {
+    "id": "padmasana",
+    "name": "Padmasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Padmasana.png",
+    "downloaded_img_path": "app/assets/images/padmasana.png",
+    "similar_poses": [
+      "pindasana",
+      "dandasana",
+      "urdhva-padmasana",
+      "savasana"
+    ]
+  },
+  {
+    "id": "savasana",
+    "name": "Savasana",
+    "img_url": "https://www.devvratyoga.com/wp-content/uploads/2019/07/Savasana.png",
+    "downloaded_img_path": "app/assets/images/savasana.png",
+    "similar_poses": [
+      "navasana",
+      "halasana",
+      "padmasana",
+      "dandasana"
+    ]
+  }
 ]
