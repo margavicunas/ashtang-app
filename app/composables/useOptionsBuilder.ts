@@ -1,10 +1,7 @@
 import asanaData from '@/assets/data/asanas.json'
 import type { RoundOption } from '@/types/game'
 import type { AsanaData } from '@/types/asanaData'
-
-const TOTAL_WRONG_OPTIONS_COUNT = 3
-// TODO: Idea, make it configurable by choosing levels of difficulty
-const SIMILAR_OPTIONS_COUNT = 2
+import { SIMILAR_OPTIONS_COUNT, TOTAL_WRONG_OPTIONS_COUNT } from '@/constants/game'
 
 export const useOptionsBuilder = () => {
   const optionsList = asanaData
